@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/C_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:text="@string/c" />
+
+    <TextView
+        android:id="@+id/C_num"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/C_label"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/C_label"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:text="@string/c_default"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center" />
+
+    <SeekBar
+        android:id="@+id/C_sb"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/C_num"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="2dp"
+        android:max="100"
+        android:layout_toRightOf="@+id/C_num" />
+
+    <TextView
+        android:id="@+id/F_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/C_sb"
+        android:layout_alignLeft="@id/C_label"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:text="@string/f" />
+
+    <TextView
+        android:id="@+id/F_num"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/F_label"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/C_label"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:text="@string/f_default"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center" />
+
+    <SeekBar
+        android:id="@+id/F_sb"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/F_num"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="2dp"
+        android:max="212"
+        android:progress="32"
+        android:layout_toRightOf="@+id/F_num" />
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/F_sb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/lightBlue"
+        android:gravity="center"
+        android:hint="@string/msg"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+</RelativeLayout>

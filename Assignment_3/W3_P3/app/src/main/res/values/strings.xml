@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">W3_P3</string>
+
+    <string name="cold">It\'s cold!</string>
+    <string name="not_cold">It\'s not cold</string>
+    <string name="msg">Interesting message</string>
+    <string name="f">Fahrenheit</string>
+    <string name="c">Celsius</string>
+    <string name="c_default">0.00</string>
+    <string name="f_default">32.00</string>
+</resources>

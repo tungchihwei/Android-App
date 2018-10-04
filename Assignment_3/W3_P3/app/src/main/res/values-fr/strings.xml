@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cold">Il fait froid</string>
+    <string name="not_cold">Ce n\'est pas froid</string>
+    <string name="msg">message intéressant</string>
+    <string name="f">Fahrenheit</string>
+    <string name="c">Celsius</string>
+    <string name="c_default">0.00</string>
+    <string name="f_default">32.00</string>
+</resources>
